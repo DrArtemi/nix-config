@@ -88,7 +88,7 @@
     description = "Adrien Milcent";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-    #  thunderbird
+      discord
     ];
   };
 
