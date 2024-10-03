@@ -58,6 +58,10 @@
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
+  services.printing.drivers = [ pkgs.gutenprint pkgs.epson-escpr2 ];
+
+  services.avahi.enable = true;
+  services.avahi.nssmdns4 = true;
 
   # Enable sound with pipewire.
   hardware.pulseaudio.enable = false;
