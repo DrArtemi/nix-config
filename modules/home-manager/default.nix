@@ -6,5 +6,6 @@
     ./programs/git.nix
 #    ./programs/alacritty.nix
     ./programs/kitty.nix
+    ./programs/fish.nix
   ];
 }

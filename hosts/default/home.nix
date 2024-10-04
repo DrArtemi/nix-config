@@ -79,7 +79,5 @@
   programs.home-manager.enable = true;
 
   # Custom programs 
-  programs.zsh.enable = true;
-#  programs.hyprland.enable = true;
-#  programs.git.enable = true;
+  # programs.hyprland.enable = true;
 }
