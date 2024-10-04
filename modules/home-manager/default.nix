@@ -4,5 +4,6 @@
     ./gui-programs/vscode.nix
     ./gui-programs/thunderbird.nix
     ./programs/git.nix
+    ./programs/alacritty.nix
   ];
 }
