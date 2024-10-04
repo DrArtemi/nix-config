@@ -5,6 +5,10 @@
       la = "ls -a";
       ll = "ls -l";
     };
+    functions = {
+      # Disable greeting
+      fish_greeting = "";
+    };
     interactiveShellInit =
       /*
       fish

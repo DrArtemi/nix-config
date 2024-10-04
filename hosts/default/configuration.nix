@@ -94,6 +94,8 @@
     ];
   };
 
+  programs.fish.enable = true;
+
   # Enable command and Flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
